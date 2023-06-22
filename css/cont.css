@@ -1,0 +1,148 @@
+/* Reset Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Connect With Us Styles */
+  
+  .connect-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+  
+  .connect-info {
+    flex-basis: 40%;
+  }
+  
+  .connect-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .connect-info p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .contact-details {
+    margin-top: 40px;
+  }
+  
+  .contact-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff8800;
+  }
+  
+  .contact-item p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .connect-form {
+    flex-basis: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+  }
+  
+  .connect-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .connect-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .connect-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .connect-form input, .connect-form textarea {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .connect-form input:focus, .connect-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .connect-form textarea {
+    height: 150px;
+  }
+  
+  .connect-form button {
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .connect-form button:hover {
+    background-color: #ff6a00;
+    cursor: pointer;
+  }
+  
